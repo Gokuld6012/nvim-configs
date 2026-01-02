@@ -1,5 +1,7 @@
-vim.opt.number = true
-
-require("keymaps")
+require("config.options")
+require("config.keymaps")
+require("config.diagnostic")
 require("config.lazy")
-require("core.lsp")
+
+require("plugins")
+require("lsp")

@@ -1,5 +1,3 @@
--- lua/keymaps.lua
-
 -- Leader key (MUST be before mappings)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
